@@ -9,7 +9,7 @@ public class conversionData {
 
         // Pedir un valor
         var consola = new Scanner(System.in);
-        System.out.println("Proporciona tu edad: ");
+        System.out.print("Proporciona tu edad: ");
         edad = Integer.parseInt(consola.nextLine());
         System.out.println("Edad: " + edad);
     }
