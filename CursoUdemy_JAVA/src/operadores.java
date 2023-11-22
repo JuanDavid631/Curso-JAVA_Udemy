@@ -57,5 +57,68 @@ public class operadores {
     System.out.println("Pre-decremento: " + number10);
     number10 = number9--; // Post-decremento simbolo despues de la variable
     System.out.println("Post-decremento: " + number10);
+
+    // Operadores de igualdad y relacionales
+    System.out.println("\n--- Igualdad y relacionales ---");
+    var number11 = 153;
+    var number12 = 21;
+    var number13 = (number11 == number12);
+    System.out.println("Igualdad: " + number13);
+    number13 = (number11 != number12);
+    System.out.println("Diferencia: " + number13);
+    number13 = (number11 > number12);
+    System.out.println("Mayor que: " + number13);
+    number13 = (number11 < number12);
+    System.out.println("Menor que: " + number13);
+    number13 = (number11 >= number12);
+    System.out.println("Mayor o igual que: " + number13);
+    number13 = (number11 <= number12);
+    System.out.println("Menor o igual que: " + number13);
+
+    var cadena = "Hola";
+    var cadena2 = "Adios";
+    var cadena4 = "Hola";
+    var cadena3 = (cadena == cadena2); // Compara la referencia en memoria segun la variable
+    System.out.println("\nIgualdad de cadenas: " + cadena3);
+    cadena3 = cadena.equals(cadena4); // Compara el contenido de la cadena
+    System.out.println("Igualdad de cadenas: " + cadena3);
+
+    // Operadores condicionales
+    System.out.println("\n--- Condicionales ---");
+    var number14 = (number11 == number12) && (number11 > number12);
+    System.out.println("AND: " + number14);
+    number14 = (number11 == number12) && (number11 < number12);
+    System.out.println("AND: " + number14);
+    number14 = (number11 == number12) || (number11 > number12);
+    System.out.println("OR: " + number14);
+    number14 = (number11 == number12) || (number11 < number12);
+    System.out.println("OR: " + number14);
+
+    // Ejercicio Operadores Condicionales
+    var vacaciones= false;
+    var diaDescanso = true;
+    if (vacaciones || diaDescanso) {
+      System.out.println("Padre puede asistir al juego del hijo");
+    } else {
+      System.out.println("El padre esta ocupado");
+    }
+
+
+
+
+
+
+    // Operador ternario
+    System.out.println("\n--- Ternario ---");
+    var number15 = (number11 == number12) ? "Es igual" : "No es igual";
+    System.out.println("Ternario: " + number15);
+
+    // Operador de asignacion ternario
+    System.out.println("\n--- Asignacion ternario ---");
+    var number16 = 1;
+    var number17 = 2;
+    var number18 = (number16 > number17) ? "Es mayor" : "Es menor";
+    System.out.println("Asignacion ternario: " + number18);
+
   }
 }
