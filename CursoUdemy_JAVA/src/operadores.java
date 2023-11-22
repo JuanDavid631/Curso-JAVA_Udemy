@@ -95,7 +95,7 @@ public class operadores {
     System.out.println("OR: " + number14);
 
     // Ejercicio Operadores Condicionales
-    var vacaciones= false;
+    var vacaciones = false;
     var diaDescanso = true;
     if (vacaciones || diaDescanso) {
       System.out.println("Padre puede asistir al juego del hijo");
@@ -103,22 +103,27 @@ public class operadores {
       System.out.println("El padre esta ocupado");
     }
 
-
-
-
-
-
     // Operador ternario
     System.out.println("\n--- Ternario ---");
     var number15 = (number11 == number12) ? "Es igual" : "No es igual";
     System.out.println("Ternario: " + number15);
+    number15 = (number11 > number12) ? "Es mayor" : "Es menor";
+    System.out.println("Ternario: " + number15);
 
-    // Operador de asignacion ternario
-    System.out.println("\n--- Asignacion ternario ---");
-    var number16 = 1;
-    var number17 = 2;
-    var number18 = (number16 > number17) ? "Es mayor" : "Es menor";
-    System.out.println("Asignacion ternario: " + number18);
+    // Ejercicio Operador ternario
+    var number22 = 8;
+    var ternarioEjer = (number22 % 2 == 0) ? "Es par" : "Es impar";
+    System.out.println("Ternario ejercicio: " + ternarioEjer);
 
+    // Precedencia de operadores
+    System.out.println("\n--- Precedencia ---");
+    var number16 = 5;
+    var number17 = 10;
+    var number18 = ++number16 + number17--; // 6 + 10 = 16
+    System.out.println("Precedencia: " + number18);
+    var resultado3 = 4 + 5 * 6 / 3; // 4 + ((5*6)/3) = 14
+    System.out.println("Precedencia: " + resultado3);
+    resultado3 = (4 + 5) * 6 / 3; // ((4+5)*6)/3 = 18
+    System.out.println("Precedencia: " + resultado3);
   }
 }
