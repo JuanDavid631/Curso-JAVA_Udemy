@@ -10,4 +10,14 @@ public class Aritmetica {
         int resultado = atributo + atributo2;
         System.out.println("El resultado es: " + resultado);
     }
+
+    public int sumarConRetorno() {
+        return atributo + atributo2;
+    }
+
+    public int sumarConArgumentos(int argumento1, int argumento2) {
+        atributo = argumento1;
+        atributo2 = argumento2;
+        return sumarConRetorno();
+    }
 }
