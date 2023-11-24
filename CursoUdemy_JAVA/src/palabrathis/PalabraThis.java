@@ -18,5 +18,13 @@ class Persona {
         this.nombre = nombre;
         this.apellido = apellido;
         System.out.println("Objeto persona usando this en la clase: " + this);
+        new Imprimir().imprimir(this);
+    }
+}
+
+class Imprimir {
+    public void imprimir (Persona persona) {
+        System.out.println("Persona desde imprimir: " + persona);
+        System.out.println("Impresion del objeto actual (this): " + this);
     }
 }
