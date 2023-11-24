@@ -7,9 +7,10 @@ public class PruebaAritmetica {
       aritmetica1.atributo2 = 2;
       aritmetica1.sumar();
 
-      int resultado = aritmetica1.sumarConRetorno();
+      var resultado = aritmetica1.sumarConRetorno();
       System.out.println("El resultado desde la clase de prueba es: " + resultado);
 
-      aritmetica1.sumarConArgumentos(5, 8);
+      resultado = aritmetica1.sumarConArgumentos(5, 8);
+      System.out.println("El resultado usando argumentos es: " + resultado);
     }
 }

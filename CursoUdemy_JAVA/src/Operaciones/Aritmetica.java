@@ -16,8 +16,20 @@ public class Aritmetica {
     }
 
     public int sumarConArgumentos(int argumento1, int argumento2) {
-        atributo = argumento1;
-        atributo2 = argumento2;
-        return sumarConRetorno();
+        this.atributo = argumento1; // this.atributo hace referencia al atributo de la clase
+        this.atributo2 = argumento2;
+        return this.sumarConRetorno();
+    }
+
+    // Constructor vacio
+    public Aritmetica() {
+        System.out.println("Ejecutando constructor vacio");
+    }
+
+    // Constructor con argumentos
+    public Aritmetica(int argumento1, int argumento2) {
+        this.atributo = argumento1;
+        this.atributo2 = argumento2;
+        System.out.println("Ejecutando constructor con argumentos");
     }
 }
