@@ -1,5 +1,5 @@
 package herencia;
 
-public class Empleado {
-
+public class Empleado extends Persona {
+   
 }
