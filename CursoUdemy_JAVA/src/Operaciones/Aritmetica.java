@@ -1,4 +1,4 @@
-package Operaciones;
+package operaciones;
 
 public class Aritmetica {
   // Atributos de la clase
