@@ -51,5 +51,4 @@ public class Cliente extends Persona {
     sb.append('}');
     return sb.toString();
   }
-
 }
