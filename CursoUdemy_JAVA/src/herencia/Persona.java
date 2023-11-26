@@ -54,7 +54,13 @@ public class Persona {
 
   @Override
   public String toString() {
-    return "Persona [direccion: " + direccion + ", edad: " + edad + ", genero: " + genero + ", nombre: " + nombre + "]";
+    StringBuilder sb = new StringBuilder();
+    sb.append("Persona {nombre: ").append(this.nombre);
+    sb.append(", genero: ").append(this.genero);
+    sb.append(", edad: ").append(this.edad);
+    sb.append(", direccion: ").append(this.direccion);
+    sb.append(", ").append(super.toString());
+    sb.append('}');
+    return sb.toString();
   }
-
 }
