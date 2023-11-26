@@ -14,7 +14,7 @@ public class Persona {
   private String nombre;
   private static int contadorPersonas;
 
-  public Persona() {
+  public Persona(String nombre) {
     this.nombre = nombre;
     // Incrementar el contador por cada objeto nuevo
     Persona.contadorPersonas++;
@@ -38,4 +38,8 @@ public class Persona {
     this.nombre = nombre;
   }
 
+    @Override
+    public String toString() {
+        return "Persona {" + "idPersona: " + idPersona + ", nombre: " + nombre + '}';
+    }
 }
