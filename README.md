@@ -13,3 +13,7 @@
 Mi objetivo es crear un espacio donde los entusiastas de JAVA puedan aprender, colaborar y crecer juntos. ¡Espero que encuentres este repositorio útil y emocionante! Si tienes sugerencias o preguntas, no dudes en abrir un problema.
 
 ¡Gracias por visitar! 👋
+
+### Recursos 🔧
+
+Todo esto fue tomado del curso de Udemy (Universidad Java - De Cero a Experto - Más Completo +106 hrs)
