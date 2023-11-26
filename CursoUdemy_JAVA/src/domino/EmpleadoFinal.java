@@ -6,8 +6,8 @@ package domino;
 }*/
 
 public class EmpleadoFinal {
-  @Override
-  public void imprimir() {
-    System.out.println("Metodo imprimir desde clase hija");
-  }
+  // @Override
+  // public void imprimir() {
+  // System.out.println("Metodo imprimir desde clase hija");
+  // }
 }
