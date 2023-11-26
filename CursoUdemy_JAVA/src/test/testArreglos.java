@@ -16,5 +16,10 @@ public class testArreglos {
         for (contador = 0; contador < edades.length; contador++) {
             System.out.println("Edades elemento " + contador + ": " + edades[contador]);
         }
+
+        String frutas[] = {"Naranja", "Platano", "Uva"};
+        for (contador = 0; contador < frutas.length; contador++) {
+            System.out.println("Fruta " + contador + ": " + frutas[contador]);
+        }
     }
 }
