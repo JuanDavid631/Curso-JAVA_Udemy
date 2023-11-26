@@ -5,7 +5,7 @@ package domino;
 // Error: No se puede heredar de una clase final
 }*/
 
-public class EmpleadoFinal extends PersonaFinal {
+public class EmpleadoFinal {
   @Override
   public void imprimir() {
     System.out.println("Metodo imprimir desde clase hija");
