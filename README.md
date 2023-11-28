@@ -11,6 +11,7 @@
 ## Objetivo 🎯
 
 Mi objetivo es crear un espacio donde los entusiastas de JAVA puedan aprender, colaborar y crecer juntos. ¡Espero que encuentres este repositorio útil y emocionante! Si tienes sugerencias o preguntas, no dudes en abrir un problema.
+También afianzar mis conocimientos en el lenguaje JAVA y de esta manera avanzar en mi carrera profesional. 🏆
 
 ¡Gracias por visitar! 👋
 
